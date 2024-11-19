@@ -1,0 +1,15 @@
+analytics:
+  outputs:
+    dev:
+      type: snowflake
+      account: <dv38581.us-east-2.aws>
+      user: dhanadbt3
+      password: Iwant2learndbt
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: dbt_ddbt
+      threads: 6
+      client_session_keep_alive: True
+      query_tag: dbt
+      authenticator: externalbrowser
